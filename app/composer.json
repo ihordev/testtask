@@ -41,11 +41,6 @@
             "yii\\composer\\Installer::postInstall"
         ]
     },
-    "autoload": {
-        "psr-4": {
-            "FB\\Accountkit\\": "facebook-accountkit-php/src/accountkit"
-        }
-    },
     "extra": {
         "yii\\composer\\Installer::postCreateProject": {
             "setPermission": [
